@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+/*   outline: solid red; */
+  font-family:"outfit";
+}
+body{
+  background-color:#0D192C;
+}
+.mainbox{
+  width:350px;
+  height:596px;
+  background:#15263F;
+  margin-top:152px;
+  border-radius:15px;
+  margin-left:445px;
+ 
+  
+  } 
+.box1{
+  display:flex;
+  align-items:center;
+  margin-left:24px;
+  margin-right:24px;
+}
+
+.header{
+font-family:outfit;
+margin-top:24px;
+font-size:22px;
+color:#FFFFFF;
+line-height:27.72px;
+margin-left:24px;
+  
+}
+
+.header:hover{
+  color:#00FFF8;
+  cursor:pointer;
+}
+.text1{
+font-family:outfit;
+color:#8BACD9;
+margin-left:24px;
+margin-right:24px; 
+margin-top:16px;
+}
+.image{
+  width:302px;
+  height:302px;
+  margin:24px;
+  border-radius:8px;
+}
+
+
+.text2{
+  
+  width:75px;
+  height:20px;
+  color:#00FFF8;
+  margin-left:6.48px;
+}
+.clock{
+  margin-left:112.15px;
+}
+.text3{
+  color:#8BACD9;
+  Font-size: 16px;
+  margin-left:6px;
+}
+.line{
+   Width:302px;
+   Height:1px;
+   background:#2E405A;
+  border:none;
+}
+.box2{
+  display:flex;
+  align-items:center;
+  margin-top:16px;
+}
+.avatar{
+  Width:33px;
+  Height:33px;
+  border:solid white;
+  border-radius:50%;
+  margin-left:24px;
+  
+}
+.one{
+  Font-size:16px;
+  color:#8BACD9;
+  margin-left:16px;
+  
+}
+.two{
+  Font-size: 16px;
+  color:#FFFFFF;
+  margin-left:5px;
+}
+.two:hover{
+  color:#00FFF8;
+  cursor:pointer;
+}
+.change{
+  position:relative;
+}
+.change:hover .overlay{
+  opacity:0.5;
+  cursor:pointer;
+}
+.overlay{ 
+  position:absolute;
+  Width:302px;
+  Height:302px;
+  background-color:#00FFF8;
+/*  გამჭირვალობა  */
+ Opacity:0%;
+ border-radius: 8px;
+ top:0;
+ bottom:0;
+ right:0;
+ left:0;
+ margin:24px; 
+}
+.eye{
+  margin:136px;
+ 
+ }
+ 
+
+
+
